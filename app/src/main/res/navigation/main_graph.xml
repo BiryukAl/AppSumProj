@@ -9,15 +9,40 @@
         android:id="@+id/notesFragment"
         android:name="com.example.summerproject.NotesFragment"
         android:label="NotesFragment"
-        tools:layout="@layout/activity_main"/>
+        tools:layout="@layout/fragment_notes"/>
     <fragment
         android:id="@+id/searchFragment"
         android:name="com.example.summerproject.SearchFragment"
         android:label="SearchFragment"
-        tools:layout="@layout/activity_main"/>
+        tools:layout="@layout/fragment_search"/>
     <fragment
         android:id="@+id/toDoFragment"
         android:name="com.example.summerproject.ToDoFragment"
         android:label="ToDoFragment"
-        tools:layout="@layout/activity_main"/>
+        tools:layout="@layout/fragment_to_do">
+        <action
+            android:id="@+id/action_toDoFragment_to_todayFragment"
+            app:destination="@id/todayFragment" />
+        <action
+            android:id="@+id/action_toDoFragment_to_plansFragment"
+            app:destination="@id/plansFragment" />
+        <action
+            android:id="@+id/action_toDoFragment_to_incomingFragment"
+            app:destination="@id/incomingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/incomingFragment"
+        android:name="com.example.summerproject.ToDo.IncomingFragment"
+        android:label="IncomingFragment"
+        tools:layout="@layout/fragment_to_do_incoming"/>
+    <fragment
+        android:id="@+id/plansFragment"
+        android:name="com.example.summerproject.ToDo.PlansFragment"
+        android:label="PlansFragment"
+        tools:layout="@layout/fragment_to_do_plans"/>
+    <fragment
+        android:id="@+id/todayFragment"
+        android:name="com.example.summerproject.ToDo.TodayFragment"
+        android:label="TodayFragment"
+        tools:layout="@layout/fragment_to_do_today"/>
 </navigation>
