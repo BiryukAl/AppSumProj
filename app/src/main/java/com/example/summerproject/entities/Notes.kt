@@ -1,10 +1,9 @@
-package com.example.notesapp.entities
+package com.example.summerproject.entities
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import java.io.Serializable
-
 
 @Entity(tableName = "Notes")
 class Notes: Serializable {
@@ -32,6 +31,7 @@ class Notes: Serializable {
 
     @ColumnInfo(name = "color")
     var color:String? = null
+
 
     override fun toString(): String {
 

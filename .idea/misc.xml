@@ -14,9 +14,20 @@
         <entry key="..\:/Users/msmks/projects/KOTLIN/AppSumProj/app/src/main/res/layout/fragment_to_do_incoming.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/msmks/projects/KOTLIN/AppSumProj/app/src/main/res/layout/fragment_to_do_plans.xml" value="0.1921875" />
         <entry key="..\:/Users/msmks/projects/KOTLIN/AppSumProj/app/src/main/res/layout/fragment_to_do_today.xml" value="0.1921875" />
+        <entry key="..\:/git/AppSumProj/app/src/main/res/drawable-v24/background.xml" value="0.181" />
+        <entry key="..\:/git/AppSumProj/app/src/main/res/drawable-v24/ic_add.xml" value="0.181" />
+        <entry key="..\:/git/AppSumProj/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.181" />
+        <entry key="..\:/git/AppSumProj/app/src/main/res/drawable-v24/ic_link.xml" value="0.181" />
+        <entry key="..\:/git/AppSumProj/app/src/main/res/drawable-v24/note_color_1.xml" value="0.181" />
+        <entry key="..\:/git/AppSumProj/app/src/main/res/drawable/ic_launcher_background.xml" value="0.181" />
         <entry key="..\:/git/AppSumProj/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/git/AppSumProj/app/src/main/res/layout/activity_main_notes.xml" value="0.25416666666666665" />
+        <entry key="..\:/git/AppSumProj/app/src/main/res/layout/fragment_create_note.xml" value="0.25416666666666665" />
+        <entry key="..\:/git/AppSumProj/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
         <entry key="..\:/git/AppSumProj/app/src/main/res/layout/fragment_notes.xml" value="0.25416666666666665" />
+        <entry key="..\:/git/AppSumProj/app/src/main/res/layout/fragment_notes_bottom_sheet.xml" value="0.25416666666666665" />
         <entry key="..\:/git/AppSumProj/app/src/main/res/layout/fragment_search.xml" value="0.25416666666666665" />
+        <entry key="..\:/git/AppSumProj/app/src/main/res/layout/item_rv_notes.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
