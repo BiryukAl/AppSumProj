@@ -14,10 +14,20 @@
         <entry key="..\:/Users/msmks/projects/KOTLIN/AppSumProj/app/src/main/res/layout/fragment_to_do_incoming.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/msmks/projects/KOTLIN/AppSumProj/app/src/main/res/layout/fragment_to_do_plans.xml" value="0.1921875" />
         <entry key="..\:/Users/msmks/projects/KOTLIN/AppSumProj/app/src/main/res/layout/fragment_to_do_today.xml" value="0.1921875" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_notes.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_search.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_to_do.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_to_do_incoming.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_to_do_plans.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_to_do_today.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/item_task.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/menu/menu_main_icons.xml" value="0.35625" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
