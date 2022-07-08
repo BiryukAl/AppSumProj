@@ -1,9 +1,12 @@
 <resources>
     <string name="app_name">summerProject</string>
-    <string name="menu_to_do">ToDO</string>
+    <string name="menu_to_do">ToDo</string>
     <string name="menu_notes">Notes</string>
     <string name="menu_search">Search</string>
-
+    <string name="todo_incoming">Incoming</string>
+    <string name="todo_today">Today</string>
+    <string name="todo_plans">Plans</string>
+    <string name="item_task">Task</string>
 
 
 </resources>

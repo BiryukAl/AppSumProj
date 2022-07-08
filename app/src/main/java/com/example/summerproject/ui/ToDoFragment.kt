@@ -1,9 +1,10 @@
-package com.example.summerproject
+package com.example.summerproject.ui
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.example.summerproject.R
 import com.example.summerproject.databinding.FragmentToDoBinding
 
 class ToDoFragment:Fragment (R.layout.fragment_to_do) {
@@ -32,7 +33,7 @@ class ToDoFragment:Fragment (R.layout.fragment_to_do) {
 
             btnPlans.setOnClickListener {
                 findNavController().navigate(
-                R.id.action_toDoFragment_to_plansFragment,
+                    R.id.action_toDoFragment_to_plansFragment,
                 Bundle().apply {
                 })
 

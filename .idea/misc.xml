@@ -14,6 +14,15 @@
         <entry key="..\:/Users/msmks/projects/KOTLIN/AppSumProj/app/src/main/res/layout/fragment_to_do_incoming.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/msmks/projects/KOTLIN/AppSumProj/app/src/main/res/layout/fragment_to_do_plans.xml" value="0.1921875" />
         <entry key="..\:/Users/msmks/projects/KOTLIN/AppSumProj/app/src/main/res/layout/fragment_to_do_today.xml" value="0.1921875" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1045" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1045" />
+        <entry key="app/src/main/res/drawable/my_button.xml" value="0.26" />
+        <entry key="app/src/main/res/drawable/notes.xml" value="0.1045" />
+        <entry key="app/src/main/res/drawable/search.xml" value="0.1045" />
+        <entry key="app/src/main/res/drawable/to_do.xml" value="0.1045" />
+        <entry key="app/src/main/res/drawable/to_do_incoming.xml" value="0.1045" />
+        <entry key="app/src/main/res/drawable/to_do_plans.xml" value="0.1045" />
+        <entry key="app/src/main/res/drawable/to_do_today.xml" value="0.1045" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_notes.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_search.xml" value="0.35625" />

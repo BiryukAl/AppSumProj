@@ -4,4 +4,8 @@
     <string name="menu_to_do">Список Дел</string>
     <string name="menu_notes">Заметки</string>
     <string name="menu_search">Поиск</string>
+    <string name="todo_incoming">Incoming</string>
+    <string name="todo_today">Today</string>
+    <string name="todo_plans">Plans</string>
+    <string name="item_task">Задача</string>
 </resources>

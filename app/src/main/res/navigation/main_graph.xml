@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/notesFragment"
-        android:name="com.example.summerproject.NotesFragment"
+        android:name="com.example.summerproject.ui.NotesFragment"
         android:label="NotesFragment"
         tools:layout="@layout/fragment_notes"/>
     <fragment
         android:id="@+id/searchFragment"
-        android:name="com.example.summerproject.SearchFragment"
+        android:name="com.example.summerproject.ui.SearchFragment"
         android:label="SearchFragment"
         tools:layout="@layout/fragment_search"/>
     <fragment
         android:id="@+id/toDoFragment"
-        android:name="com.example.summerproject.ToDoFragment"
+        android:name="com.example.summerproject.ui.ToDoFragment"
         android:label="ToDoFragment"
         tools:layout="@layout/fragment_to_do">
         <action
