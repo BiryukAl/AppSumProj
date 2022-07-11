@@ -16,7 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:textSize="25sp"
         app:layout_constraintHorizontal_bias="1.0"
-        android:drawableStart="@drawable/to_do_incoming"
+        android:drawableLeft="@drawable/to_do_incoming"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -30,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         android:textSize="25sp"
-        android:drawableStart="@drawable/to_do_today"
+        android:drawableLeft="@drawable/to_do_today"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_incoming" />
 
@@ -42,7 +42,7 @@
         android:text="@string/todo_plans"
         android:textSize="25sp"
         android:layout_marginTop="8dp"
-        android:drawableStart="@drawable/to_do_plans"
+        android:drawableLeft="@drawable/to_do_plans"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
