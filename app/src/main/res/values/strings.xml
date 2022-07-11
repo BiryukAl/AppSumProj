@@ -8,6 +8,7 @@
     <string name="todo_plans">Plans</string>
     <string name="item_task">Task</string>
     <string name="enter_task">Enter task</string>
+    <string name="todo">TODO</string>
 
 
 </resources>

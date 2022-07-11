@@ -29,10 +29,10 @@
         <entry key="app/src/main/res/layout/fragment_notes.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_search.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_to_do.xml" value="0.35625" />
-        <entry key="app/src/main/res/layout/fragment_to_do_incoming.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/fragment_to_do_incoming.xml" value="0.5" />
         <entry key="app/src/main/res/layout/fragment_to_do_plans.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_to_do_today.xml" value="0.35625" />
-        <entry key="app/src/main/res/layout/item_task.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/layout/item_task.xml" value="0.47785547785547783" />
         <entry key="app/src/main/res/menu/menu_main_icons.xml" value="0.35625" />
       </map>
     </option>

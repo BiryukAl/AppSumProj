@@ -22,10 +22,8 @@ class IncomingFragment: Fragment (R.layout.fragment_to_do_incoming) {
 
         binding = FragmentToDoIncomingBinding.bind(view)
 
-        adapter = TasksAdapter(MainActivity.getDataBase().getTasks())
-        {
+        adapter = TasksAdapter(MainActivity.getDataBase().getTasks()) {
           it.complete = !it.complete
-
         }
 
         binding.rvIncomingTask.adapter = adapter
