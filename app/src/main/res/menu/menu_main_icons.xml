@@ -5,18 +5,18 @@
         android:id="@+id/toDoFragment"
         android:enabled="true"
         android:icon="@drawable/to_do"
-        android:title="menu ToDo"/>
+        android:title="@string/menu_to_do"/>
 
     <item
         android:id="@+id/notesFragment"
         android:enabled="true"
         android:icon="@drawable/notes"
-        android:title="menu Notes"/>
+        android:title="@string/menu_notes"/>
 
     <item
         android:id="@+id/searchFragment"
         android:enabled="true"
         android:icon="@drawable/search"
-        android:title="menu Search"/>
+        android:title="@string/menu_search"/>
 
 </menu>
