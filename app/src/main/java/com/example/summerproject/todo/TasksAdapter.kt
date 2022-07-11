@@ -7,7 +7,7 @@ import com.example.summerproject.databinding.ItemTaskBinding
 import com.example.summerproject.todo.logic.Task
 
 class TasksAdapter(
-    private var list: ArrayList<Task>,
+    private var list: List<Task>,
     private val onItemClick: (Task) -> Unit,
 ) : RecyclerView.Adapter<TaskHolder>() {
 
