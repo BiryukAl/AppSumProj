@@ -1,11 +1,10 @@
-package com.example.summerproject.todo.plans.list
+package com.example.summerproject.todo.PlanRealisation.list
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.summerproject.R
 import com.example.summerproject.databinding.ItemPlanTodoBinding
+import com.example.summerproject.todo.plans.list.Plan
 
 class PlanAdapter(
     private val list: List<Plan>,

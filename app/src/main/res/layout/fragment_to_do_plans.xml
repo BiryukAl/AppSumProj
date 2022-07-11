@@ -14,7 +14,7 @@
         android:layout_marginTop="16dp"
         android:gravity="center"
         android:text="PLANS"
-        android:textSize="25sp"
+        android:textSize="30sp"
         app:drawableLeftCompat="@drawable/to_do_plans"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

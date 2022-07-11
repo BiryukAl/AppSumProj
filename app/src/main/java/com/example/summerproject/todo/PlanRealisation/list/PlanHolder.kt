@@ -1,4 +1,4 @@
-package com.example.summerproject.todo.plans.list
+package com.example.summerproject.todo.PlanRealisation.list
 
 import androidx.recyclerview.widget.RecyclerView
 import com.example.summerproject.databinding.ItemPlanTodoBinding
@@ -10,7 +10,7 @@ class PlanHolder(
     private  val onItemClick: (Plan) -> Unit,
 ): RecyclerView.ViewHolder(binding.root) {
 
-fun onBind(plan: Plan){
+    fun onBind(plan: Plan){
         with(binding){
             tvPlanTask.text = plan.task
             tvPlanData.text = plan.task_at

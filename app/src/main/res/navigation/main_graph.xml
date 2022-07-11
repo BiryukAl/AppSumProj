@@ -32,40 +32,43 @@
     </fragment>
     <fragment
         android:id="@+id/incomingFragment"
-        android:name="com.example.summerproject.todo.IncomingFragment"
+        android:name="com.example.summerproject.todo.incomingRealisation.IncomingFragment"
         android:label="IncomingFragment"
         tools:layout="@layout/fragment_to_do_incoming">
         <action
             android:id="@+id/action_incomingFragment_to_addTaskFragment"
             app:destination="@id/addTaskFragment" />
-        <action
-            android:id="@+id/action_incomingFragment_to_toDoFragment"
-            app:destination="@id/toDoFragment" />
     </fragment>
     <fragment
         android:id="@+id/plansFragment"
-        android:name="com.example.summerproject.todo.PlansFragment"
+        android:name="com.example.summerproject.todo.PlanRealisation.PlansFragment"
         android:label="PlansFragment"
         tools:layout="@layout/fragment_to_do_plans">
         <action
-            android:id="@+id/action_plansFragment_to_toDoFragment"
-            app:destination="@id/toDoFragment" />
+            android:id="@+id/action_plansFragment_to_itemFragment"
+            app:destination="@id/itemFragment" />
     </fragment>
     <fragment
         android:id="@+id/todayFragment"
         android:name="com.example.summerproject.todo.TodayFragment"
         android:label="TodayFragment"
-        tools:layout="@layout/fragment_to_do_today">
-        <action
-            android:id="@+id/action_todayFragment_to_toDoFragment"
-            app:destination="@id/toDoFragment" />
-    </fragment>
+        tools:layout="@layout/fragment_to_do_today"/>
     <fragment
         android:id="@+id/addTaskFragment"
-        android:name="com.example.summerproject.todo.AddTaskFragment"
-        android:label="AddTaskFragment" >
+        android:name="com.example.summerproject.todo.incomingRealisation.AddTaskFragment"
+        android:label="AddTaskFragment"
+        tools:layout="@layout/fragment_add_task">
         <action
             android:id="@+id/action_addTaskFragment_to_incomingFragment"
             app:destination="@id/incomingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemFragment"
+        android:name="com.example.summerproject.todo.PlanRealisation.add.ItemFragment"
+        android:label="ItemFragment"
+        tools:layout="@layout/add_plan">
+        <action
+            android:id="@+id/action_itemFragment_to_plansFragment"
+            app:destination="@id/plansFragment" />
     </fragment>
 </navigation>
