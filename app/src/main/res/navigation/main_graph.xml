@@ -38,6 +38,9 @@
         <action
             android:id="@+id/action_incomingFragment_to_addTaskFragment"
             app:destination="@id/addTaskFragment" />
+        <action
+            android:id="@+id/action_incomingFragment_to_toDoFragment"
+            app:destination="@id/toDoFragment" />
     </fragment>
     <fragment
         android:id="@+id/plansFragment"
@@ -45,14 +48,18 @@
         android:label="PlansFragment"
         tools:layout="@layout/fragment_to_do_plans">
         <action
-            android:id="@+id/action_plansFragment_self"
-            app:destination="@id/plansFragment" />
+            android:id="@+id/action_plansFragment_to_toDoFragment"
+            app:destination="@id/toDoFragment" />
     </fragment>
     <fragment
         android:id="@+id/todayFragment"
         android:name="com.example.summerproject.todo.TodayFragment"
         android:label="TodayFragment"
-        tools:layout="@layout/fragment_to_do_today"/>
+        tools:layout="@layout/fragment_to_do_today">
+        <action
+            android:id="@+id/action_todayFragment_to_toDoFragment"
+            app:destination="@id/toDoFragment" />
+    </fragment>
     <fragment
         android:id="@+id/addTaskFragment"
         android:name="com.example.summerproject.todo.AddTaskFragment"
