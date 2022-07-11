@@ -31,6 +31,13 @@ class IncomingFragment: Fragment (R.layout.fragment_to_do_incoming) {
         binding.rvIncomingTask.adapter = adapter
 
 
+
+
+
+
+
+
+
         with(binding){
             floatingActionButtonAddTask.setOnClickListener(){
                 findNavController().navigate(
