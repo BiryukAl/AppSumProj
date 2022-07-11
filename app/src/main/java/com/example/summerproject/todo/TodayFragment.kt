@@ -1,4 +1,4 @@
-package com.example.summerproject.ToDo
+package com.example.summerproject.todo
 
 import androidx.fragment.app.Fragment
 import com.example.summerproject.R

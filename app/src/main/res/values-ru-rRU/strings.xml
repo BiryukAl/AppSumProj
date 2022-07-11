@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Летняя Практика</string>
+    <string name="app_name">ToDoNotes</string>
     <string name="menu_to_do">Список Дел</string>
     <string name="menu_notes">Заметки</string>
     <string name="menu_search">Поиск</string>

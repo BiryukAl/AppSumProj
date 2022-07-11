@@ -32,17 +32,33 @@
     </fragment>
     <fragment
         android:id="@+id/incomingFragment"
-        android:name="com.example.summerproject.ToDo.IncomingFragment"
+        android:name="com.example.summerproject.todo.IncomingFragment"
         android:label="IncomingFragment"
-        tools:layout="@layout/fragment_to_do_incoming"/>
+        tools:layout="@layout/fragment_to_do_incoming">
+        <action
+            android:id="@+id/action_incomingFragment_to_addTaskFragment"
+            app:destination="@id/addTaskFragment" />
+    </fragment>
     <fragment
         android:id="@+id/plansFragment"
-        android:name="com.example.summerproject.ToDo.PlansFragment"
+        android:name="com.example.summerproject.todo.PlansFragment"
         android:label="PlansFragment"
-        tools:layout="@layout/fragment_to_do_plans"/>
+        tools:layout="@layout/fragment_to_do_plans">
+        <action
+            android:id="@+id/action_plansFragment_self"
+            app:destination="@id/plansFragment" />
+    </fragment>
     <fragment
         android:id="@+id/todayFragment"
-        android:name="com.example.summerproject.ToDo.TodayFragment"
+        android:name="com.example.summerproject.todo.TodayFragment"
         android:label="TodayFragment"
         tools:layout="@layout/fragment_to_do_today"/>
+    <fragment
+        android:id="@+id/addTaskFragment"
+        android:name="com.example.summerproject.todo.AddTaskFragment"
+        android:label="AddTaskFragment" >
+        <action
+            android:id="@+id/action_addTaskFragment_to_incomingFragment"
+            app:destination="@id/incomingFragment" />
+    </fragment>
 </navigation>
